@@ -106,7 +106,7 @@ reader.readAsDataURL(file)
         <div className="flex  border border-dashed  center  "> 
             <div className="bg-gray-300 w-[350px] h-screen">
                 <h1 className="text-center">Categaries</h1>
-                <select onChange={(e)=>{setvalue(e.target.value),setdropdown(true),setsubcategary(false)}} value={value} className="m-4">
+                <select onChange={(e)=>{setvalue(e.target.value),setdropdown(true),setsubcategary(false)}} value={value} className="m-4 bg-blue-500 rounded-sm p-2">
                     <option value="categaries">Categaries</option>
                     <option value="Kids" >Kids</option>
                     <option value="Male">Male</option>
